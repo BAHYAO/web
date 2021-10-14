@@ -1,0 +1,90 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(auto, auto);
+    background-color: blueviolet;
+    /* background-image: url("bg.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% ;
+}
+.container1{
+    grid-column: 2/3;
+    background-color:rgb(23, 17, 110);
+    border: 1px solid #00f;
+    width: 750px;
+    box-shadow: darkgray;
+}
+section{
+    grid-column: 3/3;
+    text-align: right;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.icone{
+    width: 50px;
+    margin-left: 45%;
+    display: block;
+}
+#affichage{
+    margin-left: 25%;
+}
+
+form{
+    display: block;
+    margin: 75px;
+}
+
+label{
+    color: cyan;
+    text-transform: uppercase;
+}
+button{
+    cursor: pointer;
+    border-radius: 95px;
+    width: 200px;
+    height: 35px;
+    font-size: large;
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30%;
+    border: none;
+    background-color: rgb(23, 17, 110);
+    border-bottom: 2px solid cyan;
+    color: cyan;
+}
+
+input{
+    border: none;
+    background-color: rgb(23, 17, 110);
+    border-bottom: 2px solid cyan;
+    color: white;
+    font-size: large;
+    font-family: 'Ink Free', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    height: 45px;   
+    border-radius: 25px;
+    padding-left: 10px;
+}
+textarea{
+    border: none;
+    background-color: rgb(23, 17, 110);
+    border-bottom: 2px solid cyan;
+    color: white;
+    font-size: large;
+    font-family: 'Ink Free', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    max-width: 600px;
+    height: 45px;
+    max-height: 205px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+
+
+
+
